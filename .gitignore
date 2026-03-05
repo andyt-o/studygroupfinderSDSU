@@ -1,0 +1,36 @@
+# --- Build Directories ---
+# This is the most important one!
+build/
+bin/
+out/
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+.history/
+
+# --- Compiled Objects & Libraries ---
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.exe
+*.out
+*.app
+
+# --- CMake Generated Files (Safety catch) ---
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# --- Dependency Managers ---
+vcpkg/
