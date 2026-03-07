@@ -17,3 +17,8 @@ UI/UX or AI:
 The app will focus on a clean and simple design for college students, with easy navigation and minimal steps during emergencies. An AI feature could include a basic chatbot assistant that helps users identify whether they need medical, counseling, or security support. 
 5. Goal / Impact 
 The goal of this project is to improve campus safety by giving students a fast, accessible way to request help and locate emergency resources. This software solution will reduce response time and provide stronger support for students during urgent situations.
+
+
+In order to launch the app go to the root file and do 
+cmake -S . -B build
+cmake --build build
